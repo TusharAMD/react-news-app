@@ -8,7 +8,7 @@ const News = ({ size , country , cat }) => {
   let [loading, setLoading] = useState([])
 
   const getNews = async () => {
-    const response = await fetch(`https://newsapi.org/v2/top-headlines?country=${country}&category=${cat}&apiKey=4fb20e56e83443acbf31e5746df87fd4&page=${page}&pageSize=${size}`)
+    const response = await fetch(`https://newsapi.org/v2/top-headlines?country=${country}&category=${cat}&apiKey=445938e7b4214f4988780151868665cc&page=${page}&pageSize=${size}`)
     setLoading(true)
 
     let data = await response.json()
