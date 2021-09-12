@@ -7,13 +7,14 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 function App() {
 
   //4fb20e56e83443acbf31e5746df87fd4 - apikey
   return (
     <>
-      <Router>
+      <HashRouter>
         <Nav />
 
         <Switch>
@@ -36,7 +37,7 @@ function App() {
             <News key="technology" size={9} country={'in'} cat={'technology'} />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </>
   );
 }
