@@ -2,7 +2,6 @@
   "homepage": "http://tusharamd.github.io/react-news-app",
   "name": "news-app-v3",
   "version": "0.1.0",
-  "homepage": "http://Vivek-Vishwakarma.github.io/news-app-react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
